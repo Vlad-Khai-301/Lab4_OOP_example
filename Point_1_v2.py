@@ -2,8 +2,8 @@ class Point_1:
   """
   A class to represent a point in 2D space"""
 
-  self.__x: float = 0.0
-  self.__y: float = 0.0
+  __x: float = 0.0
+  __y: float = 0.0
   __point_count: int = 0
 
   def __init__(self, x: float, y: float):
